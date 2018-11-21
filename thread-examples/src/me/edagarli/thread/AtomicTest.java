@@ -15,7 +15,6 @@ public class AtomicTest {
     public static void main(String[] args) {
         for(int i = 0; i < 10000; i++){
             new Thread(new Runnable() {
-                @Override
                 public void run() {
                     if(threadNumber.get() > 1){
                         System.out.println(Thread.currentThread().getName()+" value="+threadNumber.get()+" return null");
