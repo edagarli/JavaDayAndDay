@@ -1,6 +1,5 @@
 package me.edagarli;
 
-import com.alibaba.common.lang.ExceptionUtil;
 
 /**
  * User: edagarli
@@ -41,8 +40,8 @@ public class Main {
             System.out.println("--------------------");
             System.out.println(e.getCause());
             System.out.println("--------------------");
-            String fullStackTrace = ExceptionUtil.getStackTrace(e);
-            System.out.println(fullStackTrace);
+            //String fullStackTrace = ExceptionUtil.getStackTrace(e);
+            //System.out.println(fullStackTrace);
 //            System.out.println(e.fillInStackTrace());
 //            StackTraceElement[] st = Thread.currentThread().getStackTrace();
 //            for (StackTraceElement item : st) {
